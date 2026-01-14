@@ -54,7 +54,7 @@ Voici le code HTML et CSS avant de faire du flebox :
 
 On obtient trois boites de tailles différentes, les unes en dessous des autes sur un fond noir.
 
-![Image A](https://raw.githubusercontent.com/Vallata/html-et-css-part-3/refs/heads/main/images-readme/imgA.png)
+![Image A](https://raw.githubusercontent.com/annecemech/html-et-css-part-3/refs/heads/main/images-readme/imgA.png)
 
 ### Etape 2
 
