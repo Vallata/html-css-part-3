@@ -189,6 +189,24 @@ Voici le schema de conception de la navbar
 }
 ```
 
+### Méthode de refactorisation du code - Le classement du code lié au composant
+
+Notre fichier CSS commence à devenir long. Il inclut du style lié au site en général, et du style lié à des éléments précis. 
+Rangeons notre code pour que le tout soit plus maintenable. 
+
+**Méthode :
+**
+1) création d’un dossier nommé “components” (dans notre dossier global de code)
+
+2) à l’intérieur de "components", création d’un fichier de style nommé “mon-composant.css”
+
+3) Importation du composant dans notre fichier CSS général “style.css” grâce à cette ligne de code :
+
+```
+@import url(components/mon-composant.css);
+```
+
+Cette ligne de code permet à notre fichier de style "général" d’avoir connaissance de notre fichier de style "spécial", classé dans le dossier composant. 
 
 ## <a href="https://flexboxfroggy.com/#fr" target="_blank">Jeu - Flexbox Froggy</a>
 
