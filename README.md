@@ -162,13 +162,11 @@ Voici le schema de conception de la navbar
 
 ```html
 <nav class="navbar">
-  <div class="container">
-    <img src="images/logo-good-kitchen.png" class="logo" />
-    <div class="links">
-      <a href="" class="link">Accueil</a>
-      <a href="" class="link">Recettes</a>
-      <a href="" class="link">Contact</a>
-    </div>
+  <img src="images/logo-good-kitchen.png" class="logo" />
+  <div class="links">
+    <a href="" class="link">Accueil</a>
+    <a href="" class="link">Recettes</a>
+    <a href="" class="link">Contact</a>
   </div>
 </nav>
 ```
@@ -180,7 +178,7 @@ Voici le schema de conception de la navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #e2f3dc;
+  background: #f9f8f4;
 }
 
 .navbar .links {
