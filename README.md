@@ -204,4 +204,4 @@ Voici le schema de conception de la navbar
 
 --
 
-## ➡️ Lien vers le prochian cours <a href="https://github.com/vallata/html-et-css-part-4" target="_blanck">ici</a>
+## ➡️ Lien vers le prochain cours <a href="https://github.com/vallata/html-et-css-part-4" target="_blanck">ici</a>
