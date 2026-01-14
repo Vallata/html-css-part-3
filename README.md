@@ -8,7 +8,7 @@
 
 Dans l'exemple qui va suivre nous allons créer une ligne fine (de 5px) de trois couleurs différentes qui sera située au debut et à la fin du site. Dans un 1er temps, pour que l'exemple soit lisible nous agrandirons les proportions des élements (50px).
 
-Pour commencer, on créé une boite noire (qui sera par la suite transparante, d'où le nom de "line-transparent"). Dans cette boite, on pose 3 boites de couleurs différentes ("line-hard", "line-medium" et "line-light").
+Pour commencer, on créé une boite noire (qui sera par la suite transparante, d'où le nom de "container-black"). Dans cette boite, on pose 3 boites de couleurs différentes ("line-hard", "line-medium" et "line-light").
 
 ### Etape 0
 
@@ -17,7 +17,7 @@ Voici le code HTML et CSS avant de faire du flebox :
 #### le html (l.11-15)
 
 ```html
-<div class="line-transparent">
+<div class="container-black">
   <div class="line-hard"></div>
   <div class="line-medium"></div>
   <div class="line-light"></div>
@@ -27,15 +27,15 @@ Voici le code HTML et CSS avant de faire du flebox :
 #### le CSS
 
 ```css
-.line-transparent {
+.container-black {
   background: black;
   width: 100%;
 }
 
-.line-light {
+.line-hard {
   height: 50px;
-  width: 20%;
-  background: #ee9ca7;
+  width: 50%;
+  background: #9f3442;
 }
 
 .line-medium {
@@ -44,11 +44,12 @@ Voici le code HTML et CSS avant de faire du flebox :
   background: #c86472;
 }
 
-.line-hard {
+.line-light {
   height: 50px;
-  width: 50%;
-  background: #9f3442;
+  width: 20%;
+  background: #ee9ca7;
 }
+
 ```
 
 On obtient trois boites de tailles différentes, les unes en dessous des autes sur un fond noir.
@@ -57,12 +58,12 @@ On obtient trois boites de tailles différentes, les unes en dessous des autes s
 
 ### Etape 2
 
-On introduit Flexbox. Le HTML ne change pas. Seul le CSS est modifié. Tout d'abord il faut définir une boite parente. Ici la boite parente (celle qui contient les boites que l'on souhaite aligner horizontalement) est biensûr "line-transparent". Pour la définir comme boite parente au sens flexbox il faut lui ajouter la propriété "display: flex;".
+On introduit Flexbox. Le HTML ne change pas. Seul le CSS est modifié. Tout d'abord il faut définir une boite parente. Ici la boite parente (celle qui contient les boites que l'on souhaite aligner horizontalement) est biensûr "container-black". Pour la définir comme boite parente au sens flexbox il faut lui ajouter la propriété "display: flex;".
 
 #### le CSS
 
 ```css
-.line-transparent {
+.container-black {
   background: black;
   width: 100%;
   display: flex;
@@ -78,7 +79,7 @@ Pour choisir le type d'alignement horizontal, on utilise la propriété "justify
 #### le CSS
 
 ```css
-.line-transparent {
+.container-black {
   background: black;
   width: 100%;
   display: flex;
@@ -95,7 +96,7 @@ On peut également choisir la disposition verticale. Pour cela on utilise la pro
 #### le CSS
 
 ```css
-.line-transparent {
+.container-black {
   background: black;
   width: 100%;
   display: flex;
@@ -115,7 +116,7 @@ Afin d'avoir un rendu sous forme de ligne que nous poserons en dessus de la barr
 #### le CSS (l.99-121)
 
 ```css
-.line-transparent {
+.container-black {
   width: 100%;
   display: flex;
   justify-content: space-between;
