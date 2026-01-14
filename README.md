@@ -141,17 +141,6 @@ Afin d'avoir un rendu sous forme de ligne que nous poserons en dessus de la barr
 }
 ```
 
-## <a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a>
-
-<a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a> est un jeu en ligne permettant de s'exercer aux propiétés flexbox.
-
-## Créér son propre logo
-
-Ils existent plusieurs sites qui permettent de générer un logo :
-
-- <a href="https://fr.freelogodesign.org/" target="_blank">freelogodesign.org</a>
-- <a href="https://thenounproject.com/" target="_blank">thenounproject.com</a>
-
 ## Le composant Navbar
 
 Voici le schema de conception de la navbar
@@ -199,6 +188,18 @@ Voici le schema de conception de la navbar
   border-bottom: solid 2px #886176;
 }
 ```
+
+
+## <a href="https://flexboxfroggy.com/#fr" target="_blank">Jeu - Flexbox Froggy</a>
+
+<a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a> est un jeu en ligne permettant de s'exercer aux propiétés flexbox.
+
+## Créér son propre logo
+
+Ils existent plusieurs sites qui permettent de générer un logo :
+
+- <a href="https://fr.freelogodesign.org/" target="_blank">freelogodesign.org</a>
+- <a href="https://thenounproject.com/" target="_blank">thenounproject.com</a>
 
 --
 
