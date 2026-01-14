@@ -1,6 +1,6 @@
 # Jour 3
 
-## Lien vers la <a href="https://annecemech.github.io/html-css-part-3/" target="_blank">démo</a>
+## Lien vers la <a href="https://annecemech.hthub.io/html-css-part-3/" target="_blank">démo</a>
 
 ## Lien vers les <a href="https://docs.google.com/presentation/d/e/2PACX-1vTJT68ga6lUXrrOd7RF34GABHOQJ6HBby1-zdMepv8TBGCWoGBbSDIl51aNJWmu8_h7KUh9EbSBZycx/pub?start=false&loop=false&delayms=3000" target="_blank">slides du cours</a>
 
@@ -32,10 +32,10 @@ Voici le code HTML et CSS avant de faire du flebox :
   width: 100%;
 }
 
-.line-hard {
+.line-light {
   height: 50px;
-  width: 50%;
-  background: #9f3442;
+  width: 20%;
+  background: #ee9ca7;
 }
 
 .line-medium {
@@ -44,17 +44,16 @@ Voici le code HTML et CSS avant de faire du flebox :
   background: #c86472;
 }
 
-.line-light {
+.line-hard {
   height: 50px;
-  width: 20%;
-  background: #ee9ca7;
+  width: 50%;
+  background: #9f3442;
 }
-
 ```
 
 On obtient trois boites de tailles différentes, les unes en dessous des autes sur un fond noir.
 
-![Image A](https://raw.githubusercontent.com/annecemech/html-et-css-part-3/refs/heads/main/images-readme/imgA.png)
+![Image A](https://raw.githubusercontent.com/annecemech/html-css-part-3/refs/heads/main/images-readme/imgA.png)
 
 ### Etape 2
 
@@ -70,7 +69,7 @@ On introduit Flexbox. Le HTML ne change pas. Seul le CSS est modifié. Tout d'ab
 }
 ```
 
-![Image B](https://raw.githubusercontent.com/Vallata/html-et-css-part-3/refs/heads/main/images-readme/imgB.png)
+![Image B](https://raw.githubusercontent.com/annecemech/html-css-part-3/refs/heads/main/images-readme/imgB.png)
 
 ### Etape 3
 
@@ -87,7 +86,7 @@ Pour choisir le type d'alignement horizontal, on utilise la propriété "justify
 }
 ```
 
-![Image C](https://raw.githubusercontent.com/Vallata/html-et-css-part-3/refs/heads/main/images-readme/imgC.png)
+![Image C](https://raw.githubusercontent.com/annecemech/html-css-part-3/refs/heads/main/images-readme/imgC.png)
 
 ### Etape 4
 
@@ -105,7 +104,7 @@ On peut également choisir la disposition verticale. Pour cela on utilise la pro
 }
 ```
 
-![Image D](https://raw.githubusercontent.com/Vallata/html-et-css-part-3/refs/heads/main/images-readme/imgD.png)
+![Image D](https://raw.githubusercontent.com/annecemech/html-css-part-3/refs/heads/main/images-readme/imgD.png)
 
 Ca y est l'initiation flexbox est terminée, l'étape suivante est juste là pour ajuster visuellement le rendu final.
 
@@ -157,7 +156,7 @@ Ils existent plusieurs sites qui permettent de générer un logo :
 
 Voici le schema de conception de la navbar
 
-![Image Navbar](https://raw.githubusercontent.com/Vallata/html-et-css-part-3/refs/heads/main/images-readme/navbar.png)
+![Image Navbar](https://raw.githubusercontent.com/annecemech/html-css-part-3/refs/heads/main/images-readme/navbar.png)
 
 ### le html (l.17-24)
 
